@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Based Agents</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>LLM Based Agents</h1>
+    </header>
+    <main>
+        <section class="about">
+            <h2>About</h2>
+            <p>Our LLM based agents are trained on massive datasets to understand and generate human-like language. They can assist with a wide range of tasks, from answering questions to generating text.</p>
+        </section>
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Conversational interface</li>
+                <li>Ability to understand natural language</li>
+                <li>Generate human-like responses</li>
+                <li>Integrate with various platforms and APIs</li>
+            </ul>
+        </section>
+        <section class="use-cases">
+            <h2>Use Cases</h2>
+            <ul>
+                <li>Customer service chatbots</li>
+                <li>Virtual assistants</li>
+                <li>Language translation</li>
+                <li>Content generation</li>
+            </ul>
+        </section>
+        <section class="demo">
+            <h2>Demo</h2>
+            <form method="POST" , action="/submit">
+                <input type="text" class="form-control" id="username"  ,placeholder="ask something" name="abc">
+            
+            <button type="submit" class="btn btn-success">Ask</button>
+        </form>
+            <div id="response-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 LLM Based Agents</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
